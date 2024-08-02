@@ -22,9 +22,6 @@ SUBSYSTEM=="usb", ATTRS{idVendor}=="16c0", ATTRS{idProduct}=="05dc", MODE="0666"
 
 3. Log out & Log in or reboot just in case.
 
-### Setting fuses
-After changing properties in `Tools` section, don't forget to save microcontroller fuses by `Burn Bootloader`.
-
 ### Attiny13 setup
 For this little buddy I used Arduino IDE 2.3.2 with following hardware package
 
