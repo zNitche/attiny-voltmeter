@@ -92,7 +92,7 @@ to `Additional Boards Manager URLs` in the IDE settings.
 Package by SpenceKonde comes with built in support for uart operations all we need is USB <---> UART converter (for example `PL2303`) and proper connection.
 
 ##### Wiring
-| Converter  | Attiny13 |
+| Converter  | Attiny85 |
 | ---------- | -------- |
 | RX         |     PB0  |
 | TX         |     A1  |
