@@ -137,11 +137,13 @@ I created following circuit with voltage divider in ratio 1:4.3 (1V on ADC pin =
 ![wiring](media/wiring/stable_vcc.png)
 
 I hooked Attiny to UART converter (with power), switched ADC reference to internal 1.1V, set PSU to 4V and took some readings
+
 ![graph_no_sampling](media/graphs/85_no_sampling.png)
 
 It is quiet noisy, isn't it ? Let's check if it can be tweked with some sampling
 
 ![graph_10x_sampling](media/graphs/85_10x_sampling.png)
+
 Yup It helped now it looks much better
 
 ### Attiny13 voltage measurements
@@ -149,6 +151,7 @@ Attiny13 has 1Kb of internal space, too little for using ADC and Serail libs at 
 
 ### Field Test (Attiny85 and Attiny13)
 I modified previous circuit, added LED to indicate if voltage is below certain threshold + powered Attiny directly from battery.
+
 ![wiring](media/wiring/battery_vcc.png)
 
 This way I can test if variable supply voltage can make readings worse.
